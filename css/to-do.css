@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-contaner h1{
+    background-color: darkorange;
+    text-align: center;
+    height: 140px;
+    padding-top: 3%;
+}
+input {
+    border: none;
+    width: 55%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    background-color: white;
+    margin-top: -5%;
+    margin-left: 12%;
+}
+
+#addBtn {
+    padding: 11.5px;
+    width: 15%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-top: -5%;
+    margin-left: 68.1%;
+  }
+
+  #addBtn:hover {
+    background-color: #bbb;
+  }
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 23px;
+    background: #eee;
+    padding: 11px 0px 0px 210px;
+}
+  
+  
+ 
+ 
