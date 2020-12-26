@@ -7,7 +7,7 @@
     background-color: darkorange;
     text-align: center;
     height: 140px;
-    padding-top: 3%;
+    padding-top: 43px;
 }
 input {
     border: none;
@@ -16,8 +16,8 @@ input {
     float: left;
     font-size: 16px;
     background-color: white;
-    margin-top: -5%;
-    margin-left: 12%;
+    margin-top: -90px;
+    margin-left: 215px;
 }
 
 #addBtn {
@@ -29,7 +29,7 @@ input {
     text-align: center;
     border: none;
     cursor: pointer;
-    margin-top: -5%;
+    margin-top: -90px;
     margin-left: 68.1%;
   }
 
@@ -37,14 +37,44 @@ input {
     background-color: #bbb;
   }
 
-.paragraph-styling{
-    margin: 0;
-    cursor: pointer;
-    font-size: 23px;
-    background: #eee;
-    padding: 11px 0px 0px 210px;
+
+button:hover {
+    background-color: yellow;
+  }
+button{
+   
+    background-color: #bbb;
+    color: red;
+    margin-top: 6px;
+    margin-left: 5px;
+    padding: 2px;
+    
+}
+
+/* form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+} */
+
+
+  
+@media only screen and (max-width: 840px){
+    input {
+        margin-left: 90px;
+    }
 }
   
-  
+
+
+@media only screen and (max-width: 394px){
+    input {
+        
+        margin-left: 30px;
+    }
+}
  
  
